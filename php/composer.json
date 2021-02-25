@@ -1,0 +1,17 @@
+{
+  "require-dev": {
+    "phpunit/phpunit": "7.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "HelloWorld\\": "src",
+      "HelloWorld\\Test\\": "test"
+    },
+    "test": [
+        "phpunit test"
+    ],
+    "config":{
+      "optimize-autoloader": true
+    }
+  }
+}

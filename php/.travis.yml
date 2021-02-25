@@ -1,0 +1,24 @@
+notifications:
+  email: false
+  slack: geekshubs:rrvY2RwjwpXwVTW3jjcW8JYg
+  
+language: php
+
+php:
+- 7.2
+
+before-install:
+ - composer self-update
+ 
+install:
+- composer install
+
+script:
+- phpunit
+
+branches:
+  only:
+  - main
+  - master
+  - dev
+
