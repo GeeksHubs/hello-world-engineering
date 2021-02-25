@@ -1,2 +1,2 @@
 # hello-world-engineering
-Hello-worlds with many software technologies + Fwk test + CI/CD
+Hello-worlds with many software technologies + Fwk Test + CI/CD
