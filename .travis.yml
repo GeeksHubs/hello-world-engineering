@@ -3,6 +3,6 @@ matrix:
         - language: go
           stages: test 
           before_script: 
+            - go clean
           script:
-           - go clean
            - go test -cover ./...
