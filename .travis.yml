@@ -1,10 +1,9 @@
 matrix:
-  include:
-        - language: 
-          - go
-        stages: 
-          - test 
-        before_script: 
-          - go clean
-        script:
-          - go test -cover ./...
+  include:  
+    - language: go
+      stages:
+        -test 
+      before_script:
+        - go clean
+      script:
+        - go test -cover ./...
