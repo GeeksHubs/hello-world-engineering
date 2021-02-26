@@ -2,7 +2,7 @@ matrix:
   include:  
     - language: go
       stages:
-        -test 
+        - test 
       before_script:
         - go clean
       script:
