@@ -2,7 +2,7 @@ En la carpeta 'src/utils/HelloWorld.go' se encuentra el fichero con la definici�
 En la carpeta 'src/utils/HelloWorld_test.go' se encuentra el fichero con la suite de test.
 
 
-A continuación se muestran los resultados.
+A continuación se muestran los resultados + coverage
 
 ```
 $ go test -cover ./...
