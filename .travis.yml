@@ -1,5 +1,5 @@
-jobs:
-    include:
+matrix:
+  include:
         - language: go
           stages: test 
           before_script: 
