@@ -6,16 +6,3 @@ matrix:
           script:
            - go clean
            - go test -cover ./...
-
-        - language: node_js
-          node_js: '12'
-          stages: test 
-          script:
-            - npm ci
-            - npm test
-            
-         - language: php
-           script:
-            - composer install
-            - composer self-update
-            - phpunit
