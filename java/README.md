@@ -7,7 +7,7 @@
 [![Junit](https://img.shields.io/badge/Junit-5.3.1-orange.svg?plastic)](http://junit.org)
 [![Mockito](https://img.shields.io/badge/Mokito-2.9.3-blue.svg?plastic)](https://site.mockito.org/)
 
-## [Interface Stream.Builder<T>](https://github.com/vicboma1/Java8-Stream/blob/master/src/test/java/BuilderTest.java)
+## [Interface Stream.Builder<T>](https://github.com/GeeksHubs/hello-world-engineering/tree/main/java/src/test/java/BuilderTest.java)
 
 * void 	                      accept(T t)
 * default Stream.Builder<T> 	add(T t)
@@ -15,7 +15,7 @@
 
 
 
-## [Interface BaseStream [ T, Stream T ] - Generators](https://github.com/vicboma1/Java8-Stream/blob/master/src/test/java/BaseStreamTest.java)
+## [Interface BaseStream [ T, Stream T ] - Generators](https://github.com/GeeksHubs/hello-world-engineering/tree/main/java/src/test/java/BaseStreamTest.java)
 ```
 DoubleStream, IntStream, LongStream, Stream<T>
 ```
@@ -31,7 +31,7 @@ DoubleStream, IntStream, LongStream, Stream<T>
 
 
 
-## [Instance Methods](https://github.com/vicboma1/Java8-Stream/blob/master/src/test/java/InstanceMethodsStreamTest.java)
+## [Instance Methods](https://github.com/GeeksHubs/hello-world-engineering/tree/main/java/src/test/java/InstanceMethodsStreamTest.java)
 
 * boolean	allMatch (Predicate<? super T> predicate)
 * boolean anyMatch (Predicate<? super T> predicate)
