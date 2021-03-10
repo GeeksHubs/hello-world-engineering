@@ -67,3 +67,26 @@ DoubleStream, IntStream, LongStream, Stream<T>
 * A A[]	toArray(IntFunction<A[]> generator)
 
 
+En la carpeta 'src/test/*.java' se encuentra los ficheros con la suite de test.
+
+A continuación se muestran los resultados.
+
+
+```
+$"C:\Program Files\Java\jdk-11.0.6\bin\java.exe" -ea -Didea.test.cyclic.buffer.size=1048576 "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\lib\idea_rt.jar=54153:C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\lib\idea_rt.jar;C:\Users\vbolinches\.m2\repository\org\junit\platform\junit-platform-launcher\1.6.2\junit-platform-launcher-1.6.2.jar;C:\Users\vbolinches\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.2\junit-jupiter-engine-5.6.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\plugins\junit\lib\junit5-rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\plugins\junit\lib\junit-rt.jar;C:\Users\vbolinches\Downloads\Java8-Stream-master\java\target\test-classes;C:\Users\vbolinches\Downloads\Java8-Stream-master\java\target\classes;C:\Users\vbolinches\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.2\junit-jupiter-api-5.6.2.jar;C:\Users\vbolinches\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\vbolinches\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\vbolinches\.m2\repository\org\junit\platform\junit-platform-commons\1.6.2\junit-platform-commons-1.6.2.jar;C:\Users\vbolinches\.m2\repository\org\junit\vintage\junit-vintage-engine\5.6.2\junit-vintage-engine-5.6.2.jar;C:\Users\vbolinches\.m2\repository\org\junit\platform\junit-platform-engine\1.6.2\junit-platform-engine-1.6.2.jar;C:\Users\vbolinches\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\vbolinches\.m2\repository\org\hamcrest\hamcrest-library\2.2\hamcrest-library-2.2.jar;C:\Users\vbolinches\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;C:\Users\vbolinches\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\vbolinches\.m2\repository\org\mockito\mockito-core\2.21.0\mockito-core-2.21.0.jar;C:\Users\vbolinches\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\vbolinches\.m2\repository\net\bytebuddy\byte-buddy-agent\1.8.15\byte-buddy-agent-1.8.15.jar;C:\Users\vbolinches\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\vbolinches\.m2\repository\org\mockito\mockito-junit-jupiter\2.23.0\mockito-junit-jupiter-2.23.0.jar" com.intellij.rt.junit.JUnitStarter -ideVersion5 -junit5 @w@C:\Users\vbolinches\AppData\Local\Temp\idea_working_dirs_junit.tmp @C:\Users\vbolinches\AppData\Local\Temp\idea_junit.tmp -socket54152
+
+ -------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Results :
+Tests run: 44, Failures: 0, Errors: 0, Skipped: 0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.579 s
+[INFO] Finished at: 2021-03-10T23:15:07Z
+[INFO] Final Memory: 22M/168M
+[INFO] ------------------------------------------------------------------------
+```
+
+
