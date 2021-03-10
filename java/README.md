@@ -14,7 +14,6 @@
 * Stream<T> 	                build()
 
 
-
 ## [Interface BaseStream [ T, Stream T ] - Generators](https://github.com/GeeksHubs/hello-world-engineering/tree/main/java/src/test/java/BaseStreamTest.java)
 ```
 DoubleStream, IntStream, LongStream, Stream<T>
