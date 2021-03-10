@@ -7,6 +7,6 @@ A continuación se muestran los resultados + coverage
 
 ```
 $ go test -cover ./...
-?       _/V_/hello-world-engineering/go/src     [no test files]
+?       _/V_/hello-world-engineering/go/src             [no test files]
 ok      _/V_/hello-world-engineering/go/src/utils       0.105s  coverage: 100.0% of statements
 ```
