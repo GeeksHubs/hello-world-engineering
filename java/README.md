@@ -5,7 +5,7 @@
 [![Java](https://img.shields.io/badge/Java-1.8.0-blue.svg?plastic)](http://kotlinlang.org) 
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.eluder.coveralls/coveralls-maven-plugin/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.eluder.coveralls/coveralls-maven-plugin/)
 [![Junit](https://img.shields.io/badge/Junit-5.3.1-orange.svg?plastic)](http://junit.org)
-[![Analytics](https://ga-beacon.appspot.com/UA-68658653-8/kotlin-koans/readme)](https://github.com/igrigorik/ga-beacon)
+[![Mockito](https://img.shields.io/badge/Mokito-2.9.3-blue.svg?plastic)](https://site.mockito.org/)
 
 ## [Interface Stream.Builder<T>](https://github.com/vicboma1/Java8-Stream/blob/master/src/test/java/BuilderTest.java)
 
